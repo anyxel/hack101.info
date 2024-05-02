@@ -3,7 +3,7 @@
   "title": "Nmap",
   "slug": "nmap",
   "description": "Nmap is a network scanner created by Gordon Lyon. It is used to discover hosts and services on a computer network, thus creating a map of the network.",
-  "colorPref": "#2F3D75",
+  "colorPref": "#333",
   "contents": [
     {
       "title": "Nmap Basic",

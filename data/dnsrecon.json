@@ -1,0 +1,72 @@
+{
+  "id": "dnsrecon",
+  "title": "DNSRecon",
+  "slug": "dnsrecon",
+  "description": "DNSRecon is a powerful DNS enumeration script designed to assist penetration testers in finding potential vulnerabilities in their network setup.",
+  "colorPref": "#333",
+  "contents": [
+    {
+      "title": "Basic",
+      "items": [
+        {
+          "definition": "Basic",
+          "code": "dnsrecon -d example.com"
+        },
+        {
+          "definition": "Brute force subdomains",
+          "code": "dnsrecon -d example.com -t brt"
+        },
+        {
+          "definition": "Save the results to SQLite format",
+          "code": "dnsrecon -d example.com --db /path/to/sqllite.file"
+        }
+      ]
+    },
+    {
+      "title": "Advanced",
+      "items": [
+        {
+          "definition": "DNS Zone Transfer",
+          "code": "dnsrecon -d example.com -t axfr"
+        },
+        {
+          "definition": "Cache snooping",
+          "code": "dnsrecon -t snoop -n ns_server -d example.com -D /path/to/dict.txt"
+        },
+        {
+          "definition": "Zone walking",
+          "code": "dnsrecon -d example.com -t zonewalk"
+        },
+        {
+          "definition": "Brute-forcing",
+          "code": "dnsrecon -d example.com -t brt"
+        },
+        {
+          "definition": "Brute-forcing with dictionary",
+          "code": "dnsrecon -d example.com -t brt -D /path/to/dict.txt"
+        },
+        {
+          "definition": "Reverse lookup",
+          "code": "dnsrecon -r 208.67.222.200-208.67.222.255 -d example.com"
+        }
+      ]
+    },
+    {
+      "title": "Wordlist",
+      "items": [
+        {
+          "definition": "Brute force subdomains with a wordlist",
+          "code": "dnsrecon -d example.com -t brt -w wordlist.txt"
+        },
+        {
+          "definition": "Brute force subdomains with a wordlist and threads",
+          "code": "dnsrecon -d example.com -t brt -w wordlist.txt -T 10"
+        },
+        {
+          "definition": "Brute force subdomains with a wordlist and threads and save to file",
+          "code": "dnsrecon -d example.com -t brt -w wordlist.txt -T 10 -z -v -j /tmp/dnsrecon.json"
+        }
+      ]
+    }
+  ]
+}
