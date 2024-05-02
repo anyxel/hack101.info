@@ -1,0 +1,96 @@
+{
+  "id": "codendesc",
+  "title": "Demo Cheat Sheet - Code and Description",
+  "slug": "codendesc",
+  "description": "Demo of a cheat sheet enriched with code and description",
+  "colorPref": "#000",
+  "contents": [
+    {
+      "title": "Title goes here",
+      "items": [
+        {
+          "definition": "Description",
+          "code": "Code"
+        },
+        {
+          "definition": "Description",
+          "code": "Code"
+        },
+        {
+          "definition": "Description",
+          "code": "Code"
+        },
+        {
+          "definition": "Description",
+          "code": "Code"
+        },
+        {
+          "definition": "Description",
+          "code": "Code"
+        },
+        {
+          "definition": "Description",
+          "code": "Code"
+        },
+        {
+          "definition": "Description",
+          "code": "Code"
+        }
+      ]
+    },
+    {
+      "title": "Title",
+      "items": [
+        {
+          "definition": "Work Description",
+          "code": "Code"
+        },
+        {
+          "definition": "Work Description",
+          "code": "Code"
+        },
+        {
+          "definition": "Work Description",
+          "code": "Code"
+        },
+        {
+          "definition": "Work Description",
+          "code": "Code"
+        },
+        {
+          "definition": "Work Description",
+          "code": "Code"
+        }
+      ]
+    },
+    {
+      "title": "Lifecycle",
+      "items": [
+        {
+          "definition": "Before Rendering",
+          "code": "constructor (props)"
+        },
+        {
+          "definition": "Before Component Mount",
+          "code": "componentWillMount()"
+        },
+        {
+          "definition": "Render",
+          "code": "render()"
+        },
+        {
+          "definition": "After Render",
+          "code": "componentDidMount()"
+        },
+        {
+          "definition": "Before DOM Removal",
+          "code": "componentWillUnmount()"
+        },
+        {
+          "definition": "For Catching Errors",
+          "code": "componentDidCatch()"
+        }
+      ]
+    }
+  ]
+}

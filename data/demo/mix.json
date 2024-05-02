@@ -1,0 +1,132 @@
+{
+  "id": "mix",
+  "title": "Demo Cheat Sheet - Mix all formats together",
+  "slug": "mix",
+  "description": "You can also mix all formats together",
+  "colorPref": "#000",
+  "contents": [
+    {
+      "title": "Title goes here",
+      "items": [
+        {
+          "definition": "Description",
+          "code": "Code"
+        },
+        {
+          "definition": "Description",
+          "code": "Code"
+        },
+        {
+          "definition": "Description",
+          "code": "Code"
+        },
+        {
+          "definition": "Description",
+          "code": "Code"
+        },
+        {
+          "definition": "Description",
+          "code": "Code"
+        },
+        {
+          "definition": "Description",
+          "code": "Code"
+        },
+        {
+          "definition": "Description",
+          "code": "Code"
+        }
+      ]
+    },
+    {
+      "title": "Title",
+      "items": [
+        {
+          "code": "Code"
+        },
+        {
+          "code": "Code"
+        },
+        {
+          "code": "Code"
+        },
+        {
+          "code": "Code"
+        },
+        {
+          "code": "Code"
+        }
+      ]
+    },
+    {
+      "title": "Title",
+      "items": [
+        {
+          "definition": "Work Description",
+          "code": "Code"
+        },
+        {
+          "definition": "Work Description",
+          "code": "Code"
+        },
+        {
+          "definition": "Work Description",
+          "code": "Code"
+        },
+        {
+          "definition": "Work Description",
+          "code": "Code"
+        },
+        {
+          "definition": "Work Description",
+          "code": "Code"
+        }
+      ]
+    },
+    {
+      "title": "Title",
+      "items": [
+        {
+          "code": "Code"
+        },
+        {
+          "code": "Code"
+        },
+        {
+          "code": "Code"
+        },
+        {
+          "code": "Code"
+        },
+        {
+          "code": "Code"
+        }
+      ]
+    },
+    {
+      "title": "Title",
+      "items": [
+        {
+          "definition": "Work Description",
+          "code": "Code"
+        },
+        {
+          "definition": "Work Description",
+          "code": "Code"
+        },
+        {
+          "definition": "Work Description",
+          "code": "Code"
+        },
+        {
+          "definition": "Work Description",
+          "code": "Code"
+        },
+        {
+          "definition": "Work Description",
+          "code": "Code"
+        }
+      ]
+    }
+  ]
+}

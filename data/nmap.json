@@ -1,0 +1,228 @@
+{
+  "id": "nmap",
+  "title": "Nmap",
+  "slug": "nmap",
+  "description": "Nmap is a network scanner created by Gordon Lyon. It is used to discover hosts and services on a computer network, thus creating a map of the network.",
+  "colorPref": "#2F3D75",
+  "contents": [
+    {
+      "title": "Nmap Basic",
+      "items": [
+        {
+          "definition": "Scan open ports",
+          "code": "nmap [target ip/domain]"
+        },
+        {
+          "definition": "Scan IPv6",
+          "code": "nmap -6 [target ip/domain]"
+        },
+        {
+          "definition": "Select interface and scan",
+          "code": "nmap -e [INTERFACE] [target ip/domain]"
+        },
+        {
+          "definition": "Save output to a file",
+          "code": "nmap -oN [filename] [target ip/domain]"
+        },
+        {
+          "definition": "Selected port scan",
+          "code": "nmap -p[port number] [targer ip/domain]"
+        },
+        {
+          "definition": "Port range scan",
+          "code": "nmap -p[1-1000] [targer ip/domain]"
+        },
+        {
+          "definition": "Scan by service",
+          "code": "nmap -p smtp [target]"
+        }
+      ]
+    },
+    {
+      "title": "Fingerprinting with Nmap",
+      "items": [
+        {
+          "definition": "Display service version",
+          "code": "nmap -sV [target]"
+        },
+        {
+          "definition": "Aggressive scan",
+          "code": "nmap -A [target]"
+        },
+        {
+          "definition": "Detect operating system",
+          "code": "nmap -O [target]"
+        },
+        {
+          "definition": "Detect operating system verbose",
+          "code": "nmap -O -v [target]"
+        }
+      ]
+    },
+    {
+      "title": "Nmap Script Engine",
+      "items": [
+        {
+          "definition": "Run individual script",
+          "code": "nmap -script [script.nse] [target]"
+        },
+        {
+          "definition": "Execute script by category",
+          "code": "nmap -script [category] [target]"
+        },
+        {
+          "definition": "Update script database",
+          "code": "nmap -script-updatedb"
+        }
+      ]
+    },
+    {
+      "title": "Some Examples",
+      "items": [
+        {
+          "definition": "To detect service and operating system",
+          "code": "nmap -sV -O [target]"
+        },
+        {
+          "definition": "Detect web server",
+          "code": "nmap -sV --script http-title [target]"
+        },
+        {
+          "definition": "Scan common port",
+          "code": "nmap --top-ports 10 [target]"
+        },
+        {
+          "definition": "Brute force DNS records",
+          "code": "nmap --script dns-brute [target]"
+        },
+        {
+          "definition": "Detect sniffer",
+          "code": "nmap -sP --script sniffer-detect [target]"
+        }
+      ]
+    },
+    {
+      "title": "Nmap Timing Options",
+      "items": [
+        {
+          "definition": "Timing templates",
+          "code": "-T[0-5] "
+        },
+        {
+          "definition": "Set live from packet time",
+          "code": "-ttl"
+        },
+        {
+          "definition": "For minimum parallel operation",
+          "code": "-min-parallelism"
+        },
+        {
+          "definition": "For maximum parallel operation",
+          "code": "-max-parallelism"
+        },
+        {
+          "definition": "Minimal host group size",
+          "code": "-min-hostgroup"
+        },
+        {
+          "definition": "Maximum host group size",
+          "code": "-max-hostgroup"
+        },
+        {
+          "definition": "Maximum RTT timeout",
+          "code": "-max-rtt-timeout"
+        },
+        {
+          "definition": "Initial RTT timeout",
+          "code": "-initial-rtt-timeout"
+        },
+        {
+          "definition": "Maximum retries",
+          "code": "-max-retries"
+        },
+        {
+          "definition": "Host timeout",
+          "code": "-host-timeout"
+        },
+        {
+          "definition": "Minimal scan delay",
+          "code": "-scan-delay"
+        },
+        {
+          "definition": "Maximum scan delay",
+          "code": "-max-scan-delay "
+        },
+        {
+          "definition": "Minimum packet rate",
+          "code": "-min-rate"
+        },
+        {
+          "definition": "Maximum packet rate",
+          "code": "-max-rate"
+        },
+        {
+          "definition": "Default reset rate limit",
+          "code": "-defeat-rst-ratelimit"
+        }
+      ]
+    },
+    {
+      "title": "Nmap Timing Template",
+      "items": [
+        {
+          "definition": "Timing template for very slow scan",
+          "code": "-T0"
+        },
+        {
+          "definition": "Effective timing template to avoid firewall",
+          "code": "-T1"
+        },
+        {
+          "definition": "Effective timing template for no obstruction in target system",
+          "code": "-T2"
+        },
+        {
+          "definition": "Default timing template",
+          "code": "-T3"
+        },
+        {
+          "definition": "Fastest timing template for LAN scan",
+          "code": "-T4"
+        },
+        {
+          "definition": "Timing template for a fast aggressive scan",
+          "code": "-T5"
+        }
+      ]
+    },
+    {
+      "title": "Nmap Time Specific Flags",
+      "items": [
+        {
+          "definition": "Seconds",
+          "code": "s"
+        },
+        {
+          "definition": "Minutes",
+          "code": "m"
+        },
+        {
+          "definition": "Hours",
+          "code": "h"
+        },
+        {
+          "definition": "60 seconds",
+          "code": "60s"
+        },
+        {
+          "definition": "5 minutes",
+          "code": "5m"
+        },
+        {
+          "definition": "1 hour",
+          "code": "1h"
+        }
+      ]
+    }
+  ]
+}

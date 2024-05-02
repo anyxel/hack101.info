@@ -1,0 +1,58 @@
+{
+  "name": "hack101",
+  "private": true,
+  "description": "A vault of ethical hacking, and cybersecurity cheat sheets.",
+  "version": "2.0.0",
+  "author": "hack101",
+  "dependencies": {
+    "@emotion/core": "^11.0.0",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "axios": "^1.6.8",
+    "gatsby": "^5.13.4",
+    "gatsby-image": "^3.11.0",
+    "gatsby-plugin-manifest": "^5.13.1",
+    "gatsby-plugin-offline": "^6.13.2",
+    "gatsby-plugin-sharp": "^5.13.1",
+    "gatsby-source-filesystem": "^5.13.1",
+    "gatsby-transformer-sharp": "^5.13.1",
+    "prop-types": "^15.8.1",
+    "puppeteer": "^22.7.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-ga": "^3.3.1",
+    "react-icons": "^5.2.0",
+    "react-masonry-css": "^1.0.14"
+  },
+  "devDependencies": {
+    "husky": "^9.0.11",
+    "prettier": "^3.2.5",
+    "pretty-quick": "^4.0.0"
+  },
+  "keywords": [
+    "cheatsheet",
+    "hacking-cheatsheet"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "npm run thumbnail && gatsby build",
+    "thumbnail": "cd scripts && node thumbnail.js",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anyxel/hack101.info"
+  },
+  "bugs": {
+    "url": "https://github.com/anyxel/hack101.info/issues"
+  }
+}

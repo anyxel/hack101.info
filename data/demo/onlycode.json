@@ -1,0 +1,109 @@
+{
+  "id": "onlycode",
+  "title": "Demo Cheat Sheet - Only Code",
+  "slug": "onlycode",
+  "description": "Demo of a cheat sheet with only code",
+  "colorPref": "#000",
+  "contents": [
+    {
+      "title": "Title",
+      "items": [
+        {
+          "code": "Code"
+        },
+        {
+          "code": "Code"
+        },
+        {
+          "code": "Code"
+        },
+        {
+          "code": "Code"
+        },
+        {
+          "code": "Code"
+        }
+      ]
+    },
+    {
+      "title": "Event Handler",
+      "items": [
+        {
+          "code": "onabort"
+        },
+        {
+          "code": "onblur"
+        },
+        {
+          "code": "onchange"
+        },
+        {
+          "code": "onclick"
+        },
+        {
+          "code": "ondblclick"
+        }
+      ]
+    },
+    {
+      "title": "Array Method",
+      "items": [
+        {
+          "code": "concat()"
+        },
+        {
+          "code": "join()"
+        },
+        {
+          "code": "length"
+        },
+        {
+          "code": "pop()"
+        },
+        {
+          "code": "push()"
+        }
+      ]
+    },
+    {
+      "title": "Title",
+      "items": [
+        {
+          "code": "Code"
+        },
+        {
+          "code": "Code"
+        },
+        {
+          "code": "Code"
+        },
+        {
+          "code": "Code"
+        },
+        {
+          "code": "Code"
+        }
+      ]
+    },
+    {
+      "title": "Title",
+      "items": [
+        {
+          "code": "Code"
+        },
+        {
+          "code": "Code"
+        },
+        {
+          "code": "Code"
+        },
+        {
+          "code": "Code"
+        },
+        {
+          "code": "Code"
+        }
+      ]
+    }
+  ]
+}
