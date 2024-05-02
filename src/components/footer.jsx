@@ -95,7 +95,7 @@ const Footer = () => (
                   <a
                     target="__blank"
                     rel="noopener noreferrer"
-                    href="https://github.com/anyxel/hackingcs.com"
+                    href="https://github.com/anyxel/hack101.info"
                   >
                     GitHub Repo
                   </a>
@@ -104,7 +104,7 @@ const Footer = () => (
                   <a
                     target="__blank"
                     rel="noopener noreferrer"
-                    href="https://github.com/anyxel/hackingcs.com/issues"
+                    href="https://github.com/anyxel/hack101.info/issues"
                   >
                     GitHub Issues
                   </a>

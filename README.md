@@ -23,7 +23,7 @@ To start contributing, follow the below guidelines:
 3. Navigate to the project directory.
    `cd hack101.info`
 4. Add a reference(remote) to the original repository.
-   `git remote add upstream (https://github.com/anyxel/hack101.info.git)`
+   `git remote add upstream https://github.com/anyxel/hack101.info.git`
 5. Check the remotes for this repository.
    `git remote -v`
 6. Always take a pull from the upstream repository to your master branch to keep it at par with the main project(updated repository).

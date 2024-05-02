@@ -53,7 +53,7 @@ const Header = ({ children, colorpref, filename, islightcolor }) => (
           <a
             target="__blank"
             rel="noopener noreferrer"
-            href={`${process.env.GITHUB_REPOSITORY}/blob/main/data/${filename}.json`}
+            href={`https://github.com/anyxel/hack101.info/blob/main/data/${filename}.json`}
           >
             <FiEdit /> <span>Edit</span>
           </a>
