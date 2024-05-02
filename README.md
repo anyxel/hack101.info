@@ -45,7 +45,7 @@ To start contributing, follow the below guidelines:
 
 ## Credits
 
-- This project is inspired by and form of [DevSonket](https://github.com/devsonket/devsonket.github.io). A big thanks to DevSonket team. ❤️
+- This project is inspired by and fork of [DevSonket](https://github.com/devsonket/devsonket.github.io). A big thanks to DevSonket team. ❤️
 
 ## Sponsors
 

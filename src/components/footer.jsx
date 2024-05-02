@@ -85,7 +85,7 @@ const Footer = () => (
             <div>
               <h3>About</h3>
               <p>
-                The goal of HackingCS is to build a big cheatsheet platform for ethical hackers, and cybersecurity researchers. It is an open-source project and anyone can contribute to it.
+                The goal of Hack101 is to build a big cheatsheet platform for ethical hackers, and cybersecurity researchers. It is an open-source project and anyone can contribute to it.
               </p>
             </div>
             <div>
