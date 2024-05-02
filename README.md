@@ -20,14 +20,14 @@ To start contributing, follow the below guidelines:
 1. Fork this repository.
 2. Clone your forked copy of the project.
    `git clone https://github.com/<your_user_name>/hack101.info.git`
-3. Navigate to the project directory 📁
-   cd Hack101
+3. Navigate to the project directory.
+   `cd hack101.info`
 4. Add a reference(remote) to the original repository.
    `git remote add upstream (https://github.com/anyxel/hack101.info.git)`
 5. Check the remotes for this repository.
    `git remote -v`
 6. Always take a pull from the upstream repository to your master branch to keep it at par with the main project(updated repository).
-   git pull upstream main
+   `git pull upstream main`
 7. Create a new branch.
    `git checkout -b <your_branch_name>`
 8. Perform your desired changes to the code base.
@@ -45,7 +45,7 @@ To start contributing, follow the below guidelines:
 
 ## Credits
 
-- This project is inspired by [DevSonket](https://github.com/devsonket/devsonket.github.io). Also, the project is a fork of DevSonket. A big thanks to DevSonket team. ❤️❤️
+- This project is inspired by and form of [DevSonket](https://github.com/devsonket/devsonket.github.io). A big thanks to DevSonket team. ❤️
 
 ## Sponsors
 
