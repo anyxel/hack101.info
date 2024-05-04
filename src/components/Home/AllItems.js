@@ -59,7 +59,7 @@ const AllItems = () => (
       render={({ allFile: { edges } }) =>
         Object.keys(organizedData(edges)).map((char, index) => (
           <ContentContainer key={index}>
-            <h3>{char}</h3>
+            <h3>{String(char).toUpperCase()}</h3>
             <div className="items">
               {organizedData(edges)[char].map(({ id, title }) => (
                 <Card key={id} id={id} title={title} />

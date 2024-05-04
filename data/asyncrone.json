@@ -1,0 +1,18 @@
+{
+  "id": "asyncrone",
+  "title": "aSYNcrone",
+  "slug": "asyncrone",
+  "description": "aSYNcrone is a SYN Flood DDoS Tool",
+  "colorPref": "#333",
+  "contents": [
+    {
+      "title": "Usage",
+      "items": [
+        {
+          "definition": "Perform a DDOS attack",
+          "code": "./aSYNcrone <source port> <target IP> <target port> <thread number>"
+        }
+      ]
+    }
+  ]
+}
