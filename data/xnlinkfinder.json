@@ -1,0 +1,55 @@
+{
+  "id": "xnlinkfinder",
+  "title": "xnLinkFinder",
+  "slug": "xnlinkfinder",
+  "description": "A python tool used to discover endpoints, potential parameters, and a target specific wordlist for a given target",
+  "colorPref": "#333",
+  "contents": [
+    {
+      "title": "Basic",
+      "items": [
+        {
+          "definition": "Find Links from a specific target",
+          "code": "xnLinkFinder -i target.com -sf target.com"
+        },
+        {
+          "definition": "Find Links from a list of URLs",
+          "code": "xnLinkFinder -i target_js.txt -sf target.com"
+        },
+        {
+          "definition": "Find Links from a files in a directory",
+          "code": "xnLinkFinder -i ~/.config/waymore/results/target.com"
+        },
+        {
+          "definition": "Find Links from a Burp project",
+          "code": "xnLinkFinder -i target_burp.xml"
+        },
+        {
+          "definition": "Find Links from an OWASP ZAP project",
+          "code": "xnLinkFinder -i target_zap.txt"
+        },
+        {
+          "definition": "Find Links from a Cadio export CSV file",
+          "code": "xnLinkFinder -i 2023-03-18-010332_csv_requests.csv"
+        },
+        {
+          "definition": "Find Links from a Waymore results directory",
+          "code": "xnLinkFinder -i ~/Tools/waymore/results/target.com"
+        }
+      ]
+    },
+    {
+      "title": "Advanced",
+      "items": [
+        {
+          "definition": "Find Links from a specific target",
+          "code": "xnLinkFinder -i target.com -sp target_prefix.txt -sf target_scope.txt -spo -inc -vv -H 'Authorization: Bearer XXXXXXXXXXXXXX' -c 'SessionId=MYSESSIONID' -u desktop mobile -d 10"
+        },
+        {
+          "definition": "Find Links from a Burp project",
+          "code": "xnLinkFinder -i target_burp.xml -o target_burp.txt -sp https://www.target.com -sf target.* -ow -spo -inc -vv"
+        }
+      ]
+    }
+  ]
+}
