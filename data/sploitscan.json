@@ -1,0 +1,30 @@
+{
+  "id": "sploitscan",
+  "title": "SploitScan",
+  "slug": "sploitscan",
+  "description": "SploitScan is a sophisticated cybersecurity utility designed to provide detailed information on vulnerabilities and associated proof-of-concept (PoC) exploits.",
+  "colorPref": "#333",
+  "contents": [
+    {
+      "title": "Usage",
+      "items": [
+        {
+          "definition": "Regular",
+          "code": "python sploitscan.py CVE-YYYY-NNNNN"
+        },
+        {
+          "definition": "Enter one or more CVE IDs to fetch data. Separate multiple CVE IDs with spaces.",
+          "code": "python sploitscan.py CVE-YYYY-NNNNN CVE-YYYY-NNNNN"
+        },
+        {
+          "definition": "Import functionality. Specify the type: 'nessus', 'nexpose' or 'openvas' and import file.",
+          "code": "python sploitscan.py --import-file path/to/yourfile.nessus --type nessus"
+        },
+        {
+          "definition": "Export the results to a JSON or CSV file. Specify the format: 'json' or 'csv'.",
+          "code": "python sploitscan.py CVE-YYYY-NNNNN -e JSON"
+        }
+      ]
+    }
+  ]
+}
